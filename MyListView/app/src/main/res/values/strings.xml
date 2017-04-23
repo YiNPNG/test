@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyListView</string>
+    <string name="action_settings">Setting</string>
+    <string name="hello">请输入</string>
+</resources>
