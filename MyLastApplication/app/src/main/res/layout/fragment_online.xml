@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:drawableLeft="@drawable/logo_qq"
+        android:drawableRight="@drawable/image5"
+        android:background="@drawable/button_selector"
+        android:layout_width="match_parent"
+        android:id="@+id/why_click_me_1"
+        android:layout_height="85dip" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="85dip"
+        android:drawableLeft="@drawable/logo_pptv"
+        android:drawableRight="@drawable/image5"
+        android:id="@+id/why_click_me_2"
+        android:background="@drawable/button_selector" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="85dip"
+        android:drawableRight="@drawable/image5"
+        android:drawableLeft="@drawable/logo_sina"
+        android:id="@+id/why_click_me_3"
+        android:background="@drawable/button_selector" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="85dip"
+        android:drawableRight="@drawable/image5"
+        android:id="@+id/why_click_me_4"
+        android:drawableLeft="@drawable/logo_sohu"
+        android:background="@drawable/button_selector" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="85dip"
+        android:drawableRight="@drawable/image5"
+        android:drawableLeft="@drawable/logo_pptv"
+        android:id="@+id/why_click_me_5"
+        android:background="@drawable/button_selector" />
+
+
+</LinearLayout>

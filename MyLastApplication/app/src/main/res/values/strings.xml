@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">我的视频</string>
+    <!--<drawable name="clr_normal">#F0FFFF</drawable>-->
+    <drawable name="clr_pressed">#BFBFBF</drawable>
+    <string name="title_file">本地视频</string>
+    <string name="title_online">网络视频</string>
+    <string name="loadinfo">载入中，请稍后...</string>
+    <string name="init_decoders">初始化播放器...</string>
+    <string name="click_me">点我   点我   点我</string>
+</resources>

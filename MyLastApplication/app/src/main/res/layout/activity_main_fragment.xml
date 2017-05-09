@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/image6"
+    tools:context="com.example.dell.mylastapplication.MainFragmentActivity">
+
+    <RadioGroup android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/radio_file"
+            android:checked="true"
+                        style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/video_file"
+            android:text="@string/title_file" />
+        <RadioButton android:id="@+id/radio_online"
+            android:drawableTop="@drawable/video_online"
+                        style="@style/main_tab_bottom"
+            android:text="@string/title_online" />
+    </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:id="@+id/returnbefore"
+        android:text="返回"/>
+    <android.support.v4.view.ViewPager
+
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+</LinearLayout>
